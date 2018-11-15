@@ -186,4 +186,21 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+
+# Created by https://www.gitignore.io/api/cmake
+# Edit at https://www.gitignore.io/?templates=cmake
+
+### CMake ###
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# End of https://www.gitignore.io/api/cmake
+
 # End of https://www.gitignore.io/api/c++,macos,python,django
