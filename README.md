@@ -4,6 +4,7 @@ A minimal implementation of a key-value pair storage in the disk with an LRU cac
 # Requirements
 - C++14
 - PostgreSQL
+- [pqxx](http://pqxx.org/development/libpqxx/){:target="_blank"}
 - Python 3
 - Cython
 - Django
