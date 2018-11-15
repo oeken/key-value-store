@@ -1,5 +1,5 @@
 # What is this?
-A minimal implementation of a key-value pair storage in the disk with an LRU cache. Eventually persistent, not scalable and robust.
+A minimal implementation of a key-value pair storage in the disk with an LRU cache. It is persistent, consistent, not scalable and not robust.
 
 # Requirements
 - C++14
