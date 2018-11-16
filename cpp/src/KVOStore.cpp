@@ -53,6 +53,7 @@ void KVOStore::evict(){
     auto lastPtr = cache.back();
     string k = lastPtr->key;
     string v = lastPtr->value;
+    delete lastPtr;
     cache.pop_back(); // remove from cache
     lookup.erase(k); // remove from lookup
     putToDisk(k, v); // insert to disk

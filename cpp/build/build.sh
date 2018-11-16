@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# export DYLD_LIBRARY_PATH=/Users/oeken/Desktop/celonis-challenge/cpp/libpqxx/build/src/dylib:/Users/oeken/torch/install/lib
+# export DYLD_LIBRARY_PATH
 
 pqxx_include1=../ext/libpqxx/include
 pqxx_include2=../ext/libpqxx/build/include

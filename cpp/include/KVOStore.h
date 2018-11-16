@@ -23,10 +23,7 @@ private:
     };
 
     mutex mtx;
-    const string diskFileName = "KVODisk.db";
     const string connString = "dbname=kvostore user=kvostoreadmin";
-    ifstream reader;
-    ofstream writer;
     int MAX_CACHE_SIZE;
     list<KVONode*> cache;
     unordered_map<string, list<KVONode*>::iterator> lookup;
